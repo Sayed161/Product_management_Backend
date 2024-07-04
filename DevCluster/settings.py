@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-+kbnx7ct_z6+tr#fm*ocpmc6+omz0u_+qe)pdgahuw4(r_e61(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-LLOWED_HOSTS = ['.vercel.app','now.sh','127.0.0.1','localhost']
+ALLOWED_HOSTS = ['.vercel.app','now.sh','127.0.0.1','localhost']
 
 
 import dj_database_url
