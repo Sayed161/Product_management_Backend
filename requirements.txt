@@ -99,7 +99,7 @@ platformdirs
 prometheus_client
 prompt_toolkit
 psutil
-psycopg2
+psycopg2-binary
 pure-eval
 pycparser
 Pygments
@@ -107,7 +107,6 @@ PyJWT
 python-crontab
 python-dateutil
 python-json-logger
-pywinpty
 PyYAML
 pyzmq
 qtconsole
