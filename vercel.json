@@ -1,10 +1,9 @@
 {
-    "version": 2,
     "builds": [
       {
         "src": "DevCluster/wsgi.py",
         "use": "@vercel/python",
-        "config": { "maxLambdaSize": "15mb", "runtime": "python3.10" }
+        "config": { "maxLambdaSize": "15mb", "runtime": "python3.10.0" }
       },
       {
         "src": "build_files.sh",
@@ -15,10 +14,6 @@
       }
     ],
     "routes": [
-      {
-        "src": "/static/(.*)",
-        "dest": "/static/$1"
-      },
       {
         "src": "/(.*)",
         "dest": "DevCluster/wsgi.py"
